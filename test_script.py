@@ -1,1 +1,1 @@
-"print('Hello from CI')" 
+"def add(a, b):\n    return a + b\n\n\ndef test_add():\n    assert add(2, 3) == 5\n    assert add(-1, 1) == 0\n    assert add(0, 0) == 0\n\n\nif __name__ == '__main__':\n    test_add()\n    print('? All tests passed!')" 
